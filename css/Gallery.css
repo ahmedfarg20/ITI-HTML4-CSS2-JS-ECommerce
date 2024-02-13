@@ -1,0 +1,26 @@
+.mr-2{
+  margin-right: 50px;
+}
+.pointer{
+  cursor: pointer;
+}
+.w-30{
+  width: 50%;
+}
+.products-description{
+  text-align: center;
+  margin: auto;
+}
+.readMore{
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(65, 196, 196);
+}
+.ml-2{
+margin-left: 20px;
+}
+.New{
+  width: 50px; height: 30px; background-color: aqua;
+  text-align: center; padding-top: 5px;font-weight: 600; font-family: Poppins, sans-serif ;
+  font-size: 20px; color: rgb(34, 37, 32); margin-left: 490px;
+}

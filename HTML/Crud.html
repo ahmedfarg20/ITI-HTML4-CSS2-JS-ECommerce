@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/About.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/register.css">
+  <link rel="stylesheet" href="../css/Crud.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+
+      <li class="nav-icon header-inline header-ml-2 header-mr-2"><a href="index.html">Home</a> </li>
+      <li class="nav-icon header-inline header-mr-2"> <a href="Gallery.html">Gallery</a></li>
+      <li class="nav-icon header-inline header-mr-2"><a href="About.html"> About us</a></li>
+      <li class="nav-icon header-inline header-mr-2"> <a href="ContactUS.html"> Contact us</a></li>
+      <li class="nav-icon header-inline" id="Dashboard"> <a href="Crud.html">Dashboard</a></li>
+
+    </ul>
+    <ul class="header-ml-20 changeheader">
+      <li class=" header-inline header-ml-22"><a href="Cart.html"> <i
+            class="nav-icon fa-solid fa-cart-shopping"></a></i></li>
+      <li class="nav-icon header-inline header-ml-2" id="loginID"><a href="login.html">Log in</a></li>
+      <li class="nav-icon header-inline header-ml-2" id="registerID"><a href="register.html">Register</a></li>
+    </ul>
+
+  </div>
+  <hr>
+  <div class="mt-2"></div>
+  <div class="crud-container">
+    <form action="" method="get" class="text-center">
+      <div class="pt-1"></div>
+      <p class="pmt-3 mr-5">shirtname</p>
+      <input type="text" placeholder="shirtname" id="shirtname" class="w-100 m-auto p-2 d-block">
+      <p class="pmt-3 mr-5">price</p>
+      <input type="text" placeholder="price" id="price" class="w-100 m-auto p-2 d-block">
+      <p class="pmt-3 mr-5">description</p>
+      <input type="text" placeholder="description" id="description" class="w-100 m-auto p-2 d-block">
+      <p class="pmt-3 mr-5">image</p>
+      <input type="text" placeholder="image" id="img" class="w-100 m-auto d-block p-2">
+      <div class="pt-2"></div>
+      <input type="button" id="addProduct" value="add product" class="btnp d-block m-auto w-50  no-brdr ">
+    </form>
+    <div class="pt-2"></div>
+  </div>
+
+  <table class="w-75 table mx-auto text-center pt-2">
+    <thead class=" bold">
+      <tr class="brdr-top-btm">
+        <th>id</th>
+        <th>name</th>
+        <th>img</th>
+        <th>price</th>
+        <th>description</th>
+        <th>delete</th>
+        <th>update</th>
+      </tr>
+    </thead>
+    <tbody id="tbody" class="pb-2">
+
+    </tbody>
+  </table>
+  <div class="pt-20"></div>
+  <!-- footer -->
+  <div class="footer">
+    <hr>
+    <div class="container">
+
+      <div class="footer-pad p-relative">
+        <div class="inline-blockf w-20 ">
+          <img src="../Images/logo.png" width="50" height="50" alt="" srcset="">
+          <p>zeBrandito Trendsetters is an all-Egyptian clothes brand. Driven by self-expression,
+            we strive to reflect our beliefs through high quality,
+            multi-featured products and effective and inspiring movements.</p>
+          <br>
+          <p>Address: 1 Mostafa El-Nahaas, Nasr City <br>
+            Call us at: 01123399345 <br>
+            Email: zebrandito@gmail.com</p>
+        </div>
+        <div class="inline-blockf w-20 footer-ml-800 footer-mt-5 p-absolute footer-position-1">
+          <p class="footer-pages">pages</p>
+          <ul class="footer-ul ">
+
+            <li class=""><a class="footer-a" href="index.html">Home</a> </li>
+            <li class=" "> <a class="footer-a" href="Gallery.html">Gallery</a></li>
+            <li class=""><a class="footer-a" href="About.html"> About us</a></li>
+            <li class=""> <a class="footer-a" href="ContactUS.html"> Contact us</a></li>
+
+
+          </ul>
+        </div>
+        <div class="inline-blockf w-20 footer-ml-100 footer-mt-5 p-absolute footer-position-2 ">
+          <p class="footer-pages">pages</p>
+          <ul class="footer-ul ">
+            <li class=""> <a class="footer-a" href="login.html"> Login</a></li>
+            <li class=""> <a class="footer-a" href="register.html"> register</a></li>
+            <li class=""> <a class="footer-a" href="register.html"> Terms</a></li>
+            <br>
+          </ul>
+        </div>
+        <div class="footer-pad"></div>
+        <p style="text-align: center;">© 2021 zeBrandito TS Management Co. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- footer End-->
+
+  <script src="../JS/header.js"></script>
+  <script src="../JS/Crud.js"></script>
+</body>
+
+</html>

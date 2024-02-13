@@ -1,0 +1,176 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/About.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/Gallery.css">
+  <link rel="stylesheet" href="../css/product-description.css">
+  <title>Gallery</title>
+</head>
+
+<body>
+  <!-- Nav -->
+  <div class="navbar">
+    <ul>
+
+      <li class="nav-icon header-inline header-ml-2 header-mr-2"><a href="index.html">Home</a> </li>
+      <li class="nav-icon header-inline header-mr-2"> <a href="Gallery.html">Gallery</a></li>
+      <li class="nav-icon header-inline header-mr-2"><a href="About.html"> About us</a></li>
+      <li class="nav-icon header-inline header-mr-2"> <a href="ContactUS.html"> Contact us</a></li>
+      <li class="nav-icon header-inline" id="Dashboard"> <a href="Crud.html">Dashboard</a></li>
+
+    </ul>
+    <ul class="header-ml-20 changeheader">
+      <li class=" header-inline header-ml-22"><a href="Cart.html"> <i
+            class="nav-icon fa-solid fa-cart-shopping"></a></i></li>
+      <li class="nav-icon header-inline header-ml-2" id="loginID"><a href="login.html">Log in</a></li>
+      <li class="nav-icon header-inline header-ml-2" id="registerID"><a href="register.html">Register</a></li>
+    </ul>
+
+  </div>
+  <hr>
+  <!-- Nav End -->
+
+  <div class="description-container">
+    <input type="button" class="p-absolute  slideshow-prev-des" onclick="prev();" value="<">
+    <input type="button" class="p-absolute  slideshow-next-des" onclick="next();" value=">">
+
+    <div class="">
+      <div class="inline-block">
+        <img src="../Images/POLOs/POLOs-2.webp" class="v-align" id="myimg" width="600px" height="600px" alt="">
+      </div>
+      <div class="bg-size inline-block m-auto t-y p-2">
+        <div id="descMaterial">
+          <p class="description-head" id="description-head">Polo T-Shirt</p>
+          <p class="description-head" id="description-price">100$</p>
+          <P class=" description-f-size grey">With its elegant appearance and unique look!
+            We present to you the Stabraq Polo T-shirt.
+            Made of piqué cotton fabric.
+            Available in a wide assortment of attractive colors!
+          </P>
+        </div>
+        <p>
+        <div class="pt-2"></div>
+        </p>
+        <p class="inline-block description-f-size-color">Color : </p> <span id="colorspantext"
+          class="description-f-size-color"></span>
+
+        <div class="colorcontainer" id="productdesc11">
+          <input type="button" class="color-div inline-block brdr-raduis no-brdr red bg-red Dmr-2 pointer">
+          <!-- </input> -->
+          <input type="button" class="color-div inline-block brdr-raduis no-brdr white bg-white Dmr-2 pointer">
+          <!-- </input> -->
+          <input type="button" class="color-div inline-block brdr-raduis no-brdr black bg-black Dmr-2 pointer">
+          <!-- </input> -->
+          <input type="button" class="color-div inline-block brdr-raduis no-brdr grey bg-grey Dmr-2 pointer">
+          <!-- </input> -->
+
+        </div>
+        <div class="">
+          <p class="inline-block description-f-size-color">Size : </p> <span id="sizespantext"
+            class="description-f-size-color"></span>
+
+        </div>
+        <div class="">
+          <input type="button" class="no-brdr size-div inline-block brdr-raduis bg1-size Dmr-2 pointer p-relative"
+            value="S">
+          </input>
+          <input type="button" class="no-brdr size-div inline-block brdr-raduis bg1-size Dmr-2 pointer p-relative"
+            value="M">
+          </input>
+          <input type="button" class="no-brdr size-div inline-block brdr-raduis bg1-size Dmr-2 pointer p-relative"
+            value="L">
+          </input>
+          <input type="button" class="no-brdr size-div inline-block brdr-raduis bg1-size Dmr-2 pointer p-relative"
+            value="XL">
+          </input>
+
+        </div>
+        <div class="dp-pt-2"></div>
+        <input type="button" class="p-btn pd-add-btn mr-2" value="Add to cart">
+        <input type="button" class="p-btn pd-buy-btn" value="Buy Now">
+
+      </div>
+
+
+    </div>
+    <div class="home-pt-5"></div>
+    <div class="home-pt-5"></div>
+
+    <div class="sizechart-container">
+      <div class="">
+        <div class="inline-block">
+          <img src="../Images/Size-Chart.webp" class="v-align" width="600px" height="600px" alt="">
+        </div>
+        <div class="bg-size inline-block m-auto t-y p-2">
+          <p class="head-sizechart">CHEST</p>
+          <P class="P-sizechart ">To measure the chest: First, put the product on a flat surface, then
+            measure between the two ends below armhole.
+          </P>
+          <p>
+          <p class="head-sizechart">LENGTH</p>
+          <P class="P-sizechart ">To measure the length of the product: First, put the product on a flat surface, then
+            measure from the highest point of the shoulder down to the products bottom hem.
+          </P>
+          <p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="home-pt-5"></div>
+  <div class="footer">
+    <hr>
+    <div class="container">
+
+      <div class="footer-pad p-relative">
+        <div class="inline-blockf w-20 ">
+          <img src="../Images/logo.png" width="50" height="50" alt="" srcset="">
+          <p>zeBrandito Trendsetters is an all-Egyptian clothes brand. Driven by self-expression,
+            we strive to reflect our beliefs through high quality,
+            multi-featured products and effective and inspiring movements.</p>
+          <br>
+          <p>Address: 1 Mostafa El-Nahaas, Nasr City <br>
+            Call us at: 01123399345 <br>
+            Email: zebrandito@gmail.com</p>
+        </div>
+        <div class="inline-blockf w-20 footer-ml-800 footer-mt-5 p-absolute footer-position-1">
+          <p class="footer-pages">pages</p>
+          <ul class="footer-ul ">
+
+            <li class=""><a class="footer-a" href="index.html">Home</a> </li>
+            <li class=" "> <a class="footer-a" href="Gallery.html">Gallery</a></li>
+            <li class=""><a class="footer-a" href="About.html"> About us</a></li>
+            <li class=""> <a class="footer-a" href="ContactUS.html"> Contact us</a></li>
+
+
+          </ul>
+        </div>
+        <div class="inline-blockf w-20 footer-ml-100 footer-mt-5 p-absolute footer-position-2 ">
+          <p class="footer-pages">pages</p>
+          <ul class="footer-ul ">
+            <li class=""> <a class="footer-a" href="login.html"> Login</a></li>
+            <li class=""> <a class="footer-a" href="register.html"> register</a></li>
+            <li class=""> <a class="footer-a" href="register.html"> Terms</a></li>
+            <br>
+          </ul>
+        </div>
+        <div class="footer-pad"></div>
+        <p style="text-align: center;">© 2021 zeBrandito TS Management Co. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="../JS/header.js"></script>
+  <script src="../JS/productsDescription.js"></script>
+</body>
+
+</html>

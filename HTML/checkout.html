@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="../css/register.css">
+  <link rel="stylesheet" href="../css/checkout.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Checkout</h1>
+    <form>
+      <label for="Name"> Name:</label>
+      <input type="text" id="UserName" name="Name" value="" readonly>
+      <label for="Email"> Email:</label>
+      <input type="text" id="UserEmail" name="Email" value="" readonly>
+
+      <label for="creditCard">Credit Card Number:</label>
+      <input type="text" id="creditCard" name="creditCard">
+      <span class="errormsg  mr-5 color-error d-block"></span>
+
+      <label for="expiryDate">Expiry Date:</label>
+      <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY">
+      <span class="errormsg  mr-5 color-error d-block"></span>
+
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv">
+      <span class="errormsg  mr-5 color-error d-block"></span>
+      <label for="cvv">Price:</label>
+      <input type="text" id="Price" name="cvv" readonly>
+
+      <input type="button" value="Place Order" id="placeOrder">
+    </form>
+  </div>
+  <script src="../JS/checkout.js"></script>
+</body>
+
+</html>

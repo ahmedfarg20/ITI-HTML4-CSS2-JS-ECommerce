@@ -1,0 +1,149 @@
+.inline-block{
+  display: inline-block;
+}
+.w-40{
+  width: 40%;
+}
+.description-container,.sizechart-container{
+  width: 95%;
+}
+.description-head{
+  font-size: 34px;
+  margin: 0;
+  padding: 10px;
+  font-weight: 400;
+  font-family: sans-serif ;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.v-align{
+  vertical-align: middle;  
+}
+.t-y{
+  transform: translateY(35%) ;
+
+}
+.no-brdr{
+  border: none;
+}
+.p-btn{
+  padding: 20px 40px;
+  border-radius: 10%;
+  cursor: pointer;
+  color: #F0F0F0;
+  border: none;
+}
+.p-btn:hover{
+  opacity: 80%;
+}
+.pd-add-btn{
+  background-color: rgb(64, 231, 64);
+}
+.pd-buy-btn{
+  background-color: #332D2D; 
+}
+.p-2{
+  padding: 0 100px;
+}
+.m-auto{
+  margin: auto auto;
+}
+.bg-size{
+  /* background-color: aqua; */
+  width: 50%;
+}
+.description-f-size{
+  font-size: 20px;
+  text-align: start;
+}
+.mt-2{
+margin-top: 50px;
+}
+.pt-2{
+  padding-top: 20px;
+}
+.description-f-size-color{
+  font-size: 20px;
+  font-family: sans-serif ;
+
+}
+.color-div,.size-div{
+  width: 50px;
+  height: 50px;
+}
+.brdr-raduis{
+  border-radius: 50%;
+}
+.bg-red{
+  background-color:#DC4C64;
+}
+.bg-white{
+  background-color:#F0F0F0;
+}
+.bg-black{
+  background-color: #332D2D;
+}
+.bg-grey{
+  background-color: #9FA6B2;
+}
+.Dmr-2{
+  margin-right: 20px;
+}
+.color-div:hover,.size-div:hover{
+  opacity: 0.5;
+}
+.bg1-size{
+  background-color: #819dcc;
+}
+.bg1-size>span{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #F0F0F0;
+  top: 16px;
+  left: 18px;
+}
+.dp-pt-2{
+  margin-top: 50px;
+}
+
+.slideshow-prev-des{
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: #37484e;
+  background-color: white;
+  font-size: 20px;
+  top: 500px;
+  left:10px;
+
+}
+.slideshow-next-des{
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: #37484e;
+  background-color: white;
+  font-size: 20px;
+  top: 500px;
+  left:558px;
+}
+.slideshow-next-des:hover,.slideshow-prev-des:hover{
+  color: white;
+  background-color: #6c757d;
+}
+.head-sizechart{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif ;
+    text-transform: capitalize;
+    line-height: 1.5;
+  }
+  .P-sizechart{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #5c6472;
+
+  }
